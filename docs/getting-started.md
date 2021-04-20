@@ -369,7 +369,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        options: {
+        query: {
           presets: ['@babel/preset-env'],
         },
       }
